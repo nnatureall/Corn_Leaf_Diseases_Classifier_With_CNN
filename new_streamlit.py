@@ -32,7 +32,7 @@ def main():
                 st.success("Classification Complete")
                 st.write(prediction)
 def predict(img):
-    classifier_model_path = "F:\\Project\\Jagung_CNN\\corn_leaf_classifier.h5"
+    classifier_model_path = "corn_leaf_classifier.h5"
 
     try:
         model = load_model(classifier_model_path)
